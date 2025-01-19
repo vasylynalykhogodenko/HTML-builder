@@ -29,4 +29,4 @@ async function mergeStyles() {
   }
 }
 
-mergeStyles();
+module.exports = { mergeStyles };

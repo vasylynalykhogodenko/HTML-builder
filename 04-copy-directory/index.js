@@ -29,3 +29,5 @@ const destDir = '04-copy-directory/files-copy';
 copyDir(sourceDir, destDir)
   .then(() => console.log('Directory copied successfully!'))
   .catch((err) => console.error('Error:', err));
+
+module.exports = { copyDir };
